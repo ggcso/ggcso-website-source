@@ -178,60 +178,60 @@ languages:
         #   url: https://example.org
         #   weight: 30
     # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-  en:
-    contentDir: "content/en/"
-    languageName: "English"
-    languageCode: "en-us"
-    weight: 2
+  # en:
+  #   contentDir: "content/en/"
+  #   languageName: "English"
+  #   languageCode: "en-us"
+  #   weight: 2
 
-    params:
-      label:
-        text: GGMS Computer Society
-        icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
-        iconHeight: 35
+  #   params:
+  #     label:
+  #       text: GGMS Computer Society
+  #       icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+  #       iconHeight: 35
 
-      # profile-mode
-      profileMode:
-        enabled: ture # needs to be explicitly set
-        title: GGMS Computer Society
-        imageUrl: 'https://avatars.githubusercontent.com/u/161861574?v=4'
-        imageTitle: GGMS Computer Society
-        imageWidth: 120
-        imageHeight: 120
-        buttons:
-          - name: our posts
-            url: posts
-          - name: 2023 Recruitment Video
-            url: https://www.bilibili.com/video/BV12h4y1D7Yh
-          - name: Do not open secretly~
-            url: https://www.bilibili.com/video/BV1GJ411x7h7/
+  #     # profile-mode
+  #     profileMode:
+  #       enabled: ture # needs to be explicitly set
+  #       title: GGMS Computer Society
+  #       imageUrl: 'https://avatars.githubusercontent.com/u/161861574?v=4'
+  #       imageTitle: GGMS Computer Society
+  #       imageWidth: 120
+  #       imageHeight: 120
+  #       buttons:
+  #         - name: our posts
+  #           url: posts
+  #         - name: 2023 Recruitment Video
+  #           url: https://www.bilibili.com/video/BV12h4y1D7Yh
+  #         - name: Do not open secretly~
+  #           url: https://www.bilibili.com/video/BV1GJ411x7h7/
 
-    menu:
-      main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: 10
-        - identifier: posts
-          name: Posts
-          url: /posts/
-          weight: 20
-        - identifier: archives
-          name: Archives
-          url: /archives/
-          weight: 30
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 40
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 50
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 60
+  #   menu:
+  #     main:
+  #       - identifier: home
+  #         name: Home
+  #         url: /
+  #         weight: 10
+  #       - identifier: posts
+  #         name: Posts
+  #         url: /posts/
+  #         weight: 20
+  #       - identifier: archives
+  #         name: Archives
+  #         url: /archives/
+  #         weight: 30
+  #       - identifier: categories
+  #         name: Categories
+  #         url: /categories/
+  #         weight: 40
+  #       - identifier: tags
+  #         name: Tags
+  #         url: /tags/
+  #         weight: 50
+  #       - identifier: search
+  #         name: Search
+  #         url: /search/
+  #         weight: 60
         # - identifier: example
         #   name: example.org
         #   url: https://example.org
