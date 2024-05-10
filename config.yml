@@ -1,0 +1,239 @@
+baseURL: "https://ggcso.github.io/"
+title: "广东高州中学电脑协会"
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+cleanDestinationDir: true
+hasCJKLanguage: true
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: GGCSO
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  # ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  ShowAllPagesInArchive: true
+  displayFullLangName: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+    favicon16x16: "https://avatars.githubusercontent.com/u/161861574?v=4"
+    favicon32x32: "https://avatars.githubusercontent.com/u/161861574?v=4"
+    apple_touch_icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+    safari_pinned_tab: "https://avatars.githubusercontent.com/u/161861574?v=4"
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ggcso"
+    - name: bilibili
+      url: "https://space.bilibili.com/455517331"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  # cover:
+  #   hidden: true # hide everywhere but not in structured data
+  #   hiddenInList: true # hide on list pages and home
+  #   hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+
+defaultContentLanguage: "zh"
+defaultContentLanguageInSubdir: true
+languages:
+  zh:
+    contentDir: "content/zh/"
+    languageName: "中文"
+    languageCode: "zh-cn"
+    weight: 1
+
+    params:
+      label:
+        text: "广东高州中学电脑协会"
+        icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+        iconHeight: 35
+
+      # profile-mode
+      profileMode:
+        enabled: ture # needs to be explicitly set
+        title: 广东高州中学电脑协会
+        imageUrl: 'https://avatars.githubusercontent.com/u/161861574?v=4'
+        imageTitle: 广东高州中学电脑协会
+        imageWidth: 120
+        imageHeight: 120
+        subtitle: "别无长物，安贫乐道"
+        buttons:
+          - name: 我们的文章
+            url: posts
+          - name: 2023 招新视频
+            url: https://www.bilibili.com/video/BV12h4y1D7Yh
+          - name: 千万不要偷偷打开~
+            url: https://www.bilibili.com/video/BV1GJ411x7h7/
+
+    menu:
+      main:
+        - identifier: home
+          name: 主页
+          url: /
+          weight: 10
+        - identifier: posts
+          name: 文章
+          url: /posts/
+          weight: 20
+        - identifier: archives
+          name: 归档
+          url: /archives/
+          weight: 30
+        - identifier: categories
+          name: 分类
+          url: /categories/
+          weight: 40
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 50
+        - identifier: search
+          name: 搜索
+          url: /search/
+          weight: 60
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
+    # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+  en:
+    contentDir: "content/en/"
+    languageName: "English"
+    languageCode: "en-us"
+    weight: 2
+
+    params:
+      label:
+        text: GGMS Computer Society
+        icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+        iconHeight: 35
+
+      # profile-mode
+      profileMode:
+        enabled: ture # needs to be explicitly set
+        title: GGMS Computer Society
+        imageUrl: 'https://avatars.githubusercontent.com/u/161861574?v=4'
+        imageTitle: GGMS Computer Society
+        imageWidth: 120
+        imageHeight: 120
+        buttons:
+          - name: our posts
+            url: posts
+          - name: 2023 Recruitment Video
+            url: https://www.bilibili.com/video/BV12h4y1D7Yh
+          - name: Do not open secretly~
+            url: https://www.bilibili.com/video/BV1GJ411x7h7/
+
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 40
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 50
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 60
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
+    # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
