@@ -142,6 +142,8 @@ languages:
         buttons:
           - name: 我们的文章
             url: posts
+          - name: 关于这个网站的诞生
+            url: posts/thought-of-init-author
           - name: 2023 招新视频
             url: https://www.bilibili.com/video/BV12h4y1D7Yh
           - name: 千万不要偷偷打开~
