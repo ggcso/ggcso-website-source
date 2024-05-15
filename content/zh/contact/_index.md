@@ -9,4 +9,4 @@ title: "联系我们"
 
 欢迎你的到来！🤗
 
-{{< figure src="/images/qrcode.jpg" align=center >}}
+{{< figure src="/images/qrcode.png" align=center >}}

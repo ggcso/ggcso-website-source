@@ -51,11 +51,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "images/avatar.jpg"
-    favicon16x16: "images/avatar.jpg"
-    favicon32x32: "images/avatar.jpg"
-    apple_touch_icon: "images/avatar.jpg"
-    safari_pinned_tab: "images/avatar.jpg"
+    favicon: "images/avatar.png"
+    favicon16x16: "images/avatar.png"
+    favicon32x32: "images/avatar.png"
+    apple_touch_icon: "images/avatar.png"
+    safari_pinned_tab: "images/avatar.png"
 
 
   # home-info mode
@@ -127,14 +127,14 @@ languages:
     params:
       label:
         text: "广东高州中学电脑协会"
-        icon: "images/avatar.jpg"
+        icon: "images/avatar.png"
         iconHeight: 35
 
       # profile-mode
       profileMode:
         enabled: ture # needs to be explicitly set
         title: 广东高州中学电脑协会
-        imageUrl: 'images/avatar.jpg'
+        imageUrl: 'images/avatar.png'
         imageTitle: 广东高州中学电脑协会
         imageWidth: 120
         imageHeight: 120

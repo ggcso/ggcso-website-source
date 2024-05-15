@@ -7,7 +7,7 @@ summary: "关于广东高州中学电脑协会网站的诞生"
 tags: ["建站", "markdown", "git", "hugo"]
 categories: ["抒情"]
 cover:
-  image: images/flag.jpg
+  image: images/cover.png
 showtoc: true
 ---
 ## By 散葉
