@@ -142,12 +142,12 @@ languages:
         buttons:
           - name: 我们的文章
             url: posts
+          - name: 联系我们
+            url: contact
+          - name: 加入我们
+            url: join
           - name: 关于这个网站的诞生
             url: posts/thought-of-init-author
-          - name: 2023 招新视频
-            url: https://www.bilibili.com/video/BV12h4y1D7Yh
-          - name: 千万不要偷偷打开~
-            url: https://www.bilibili.com/video/BV1GJ411x7h7/
 
     menu:
       main:
