@@ -51,11 +51,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://avatars.githubusercontent.com/u/161861574?v=4"
-    favicon16x16: "https://avatars.githubusercontent.com/u/161861574?v=4"
-    favicon32x32: "https://avatars.githubusercontent.com/u/161861574?v=4"
-    apple_touch_icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
-    safari_pinned_tab: "https://avatars.githubusercontent.com/u/161861574?v=4"
+    favicon: "images/avatar.jpg"
+    favicon16x16: "images/avatar.jpg"
+    favicon32x32: "images/avatar.jpg"
+    apple_touch_icon: "images/avatar.jpg"
+    safari_pinned_tab: "images/avatar.jpg"
 
 
   # home-info mode
@@ -127,14 +127,14 @@ languages:
     params:
       label:
         text: "广东高州中学电脑协会"
-        icon: "https://avatars.githubusercontent.com/u/161861574?v=4"
+        icon: "images/avatar.jpg"
         iconHeight: 35
 
       # profile-mode
       profileMode:
         enabled: ture # needs to be explicitly set
         title: 广东高州中学电脑协会
-        imageUrl: 'https://avatars.githubusercontent.com/u/161861574?v=4'
+        imageUrl: 'images/avatar.jpg'
         imageTitle: 广东高州中学电脑协会
         imageWidth: 120
         imageHeight: 120
