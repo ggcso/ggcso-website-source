@@ -11,10 +11,10 @@ cover:
 showtoc: true
 ---
 ## By 散葉
+> [我](https://github.com/MoePunchQWQ)是 2023 届电协成员，2024届电协技术部部长。
+### 1. 关于电协的现在和未来
 
-### 1. 终于做完啦！
-
-这个网站项目从2023年年底一直鸽到2024年劳动节，我终于是下定决心做出来了，有点累，但也值了。电脑协会没有网站怎么行！
+这篇文章，我修改于 2024 年 5 月 18 日，换届的前一天。没有接触过太多电协工作的我，可以说有点迷茫。希望 2024 届干部能做好以后的工作吧。
 
 ### 2. 留给后人的一些话
 
@@ -24,11 +24,7 @@ showtoc: true
 
 ![{7780540F-51EA-5DB2-E2EB-C194F1DD403E}.png](https://img.qovv.cn/2024/05/03/6633d3291f2b8.png)
 
-[这是](https://github.com/WesKwong)提出项目想法的韦哥（WesKwong）的GitHub主页。
-
-[这是](https://github.com/MoePunchQWQ)我这个菜鸡的GitHub主页。
-
-[给我去听！](https://music.163.com/song?id=1835701803&userid=1550342342)
+没错，我是烤批...
 
 ## By WesKwong
 
