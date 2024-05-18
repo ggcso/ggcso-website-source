@@ -18,7 +18,7 @@ showtoc: true
 
 ### 2. 留给后人的一些话
 
-如果不出意外本网站是部署到 GitHub，用 GitHub Pages + GitHub Actions 实现。不知道以后的学弟学妹们会不会用 GitHub 和 Markdown，有点担心捏。博客框架用的是 Hugo ，主题是 PaperMod。希望以后的人能好好对待这个网站，继续丰富和完善此网站的内容。
+如果不出意外本网站是部署到 GitHub，用 GitHub Pages + GitHub Actions 实现自动化部署，修改内容后直接 Push 源码，Github 会自动完成编译到部署的全过程。不知道以后的学弟学妹们会不会用 GitHub 和 Markdown（在写这篇文章时候的我就不会用的说），还是有点担心。博客框架用的是 Hugo ，主题是 PaperMod。希望以后的人能好好对待这个网站，继续丰富和完善此网站的内容。
 
 ### 3. 一些私货
 
